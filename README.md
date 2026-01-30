@@ -27,11 +27,11 @@ Regent Street (The Crown Estate): a central London roadside monitoring site repr
 
 Bexley (Belvedere): an outer London suburban monitoring site representing a lower-traffic setting.
 
-Both datasets cover the period from 29 August 2023 to 31 December 2025, corresponding to the post-expansion phase of the London-wide Ultra Low Emission Zone (ULEZ). The datasets include pollutant species, measurement timestamps and concentration values.
+Both datasets cover the period from 29 August 2023 to 31 December 2025, corresponding to the post-expansion phase of the London wide Ultra Low Emission Zone (ULEZ). The datasets include pollutant species, measurement timestamps and concentration values.
 
 ### **Spatial data**
 
-Spatial boundary data for the London-wide ULEZ were sourced from the [London Datastore](https://data.london.gov.uk/dataset/london-wide-ultra-low-emission-zone-2023-vd455). The ULEZ boundary dataset provides polygon geometry representing the policy coverage area following its expansion across all London boroughs on 29 August 2023.
+Spatial boundary data for the London wide ULEZ were sourced from the [London Datastore](https://data.london.gov.uk/dataset/london-wide-ultra-low-emission-zone-2023-vd455). The ULEZ boundary dataset provides polygon geometry representing the policy coverage area following its expansion across all London boroughs on 29 August 2023.
 
 ### **Data use and scope**
 
@@ -45,7 +45,7 @@ The code provides a reproducible workflow for analysing post-expansion air quali
 
 ## **Reproducing the analysis**
 
-All data required to reproduce this analysis are included in the project repository. This includes the Jupyter notebook, the air quality CSV files for Regent Street (The Crown Estate) and Bexley (Belvedere), and the spatial boundary file for the London-wide ULEZ. The analysis is written in Python and can be run using standard scientific Python libraries such as pandas, geopandas, matplotlib, and statsmodels. To reproduce the results, open the Jupyter notebook and run the cells in order from top to bottom. No additional data downloads or manual preprocessing steps are required.
+All data required to reproduce this analysis are included in the project repository. This includes the Jupyter notebook, the air quality CSV files for Regent Street (The Crown Estate) and Bexley (Belvedere), and the spatial boundary file for the London wide ULEZ. The analysis is written in Python and can be run using standard scientific Python libraries such as pandas, geopandas, matplotlib, and statsmodels. To reproduce the results, open the Jupyter notebook and run the cells in order from top to bottom. No additional data downloads or manual preprocessing steps are required.
 
 
 ## **References**
